@@ -17,8 +17,8 @@
 
 ;; Facilitate buffer next and previous.  
 ;; These are unbound by default.
-(global-set-key (kbd "C-.") 'next-buffer)
-(global-set-key (kbd "C-,") 'previous-buffer)
+(global-set-key (kbd "M-}") 'next-buffer)
+(global-set-key (kbd "M-{") 'previous-buffer)
 
 ;; Make aliases for line movement to provide consistent up/down key
 ;; semantics (M-{ and M-} move by up/down by paragraph; M-< and M->

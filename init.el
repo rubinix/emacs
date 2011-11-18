@@ -66,8 +66,9 @@
      (flymake-warnline ((t (:background "LightSteelBlue" :foreground "black"))))
      (underline ((t (:underline t))))
      (minibuffer-prompt ((t (:bold t :foreground "#ff6600")))))))
-(color-theme-vivid-chalk)
 
-(set-face-attribute 'default nil :height 14)
+(color-theme-vibrant-ink)
+
+(set-face-attribute 'default nil :height 140)
 
 (provide 'init)
